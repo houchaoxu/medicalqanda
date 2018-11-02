@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>救援智能问答</title>
+</head>
+<body>
+<form method="POST">
+    <br />{% csrf_token %}<br />
+    {{ goal }}
+    <br>
+    <label>
+        <input type="text" name="input" placeholder="请输入“是”或者“否”">
+    </label>
+</form>
+</body>
+</html>

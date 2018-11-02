@@ -1,0 +1,4 @@
+gensim
+xmnlp
+jieba
+django
